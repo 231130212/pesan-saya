@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.pesan-form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 50%;
+  height: 180px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
+
+.tombol {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-batal {
+  background-color: #f44336;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-kirim {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
